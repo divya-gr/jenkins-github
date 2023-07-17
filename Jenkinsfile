@@ -5,6 +5,7 @@ pipeline {
   
             steps {
                 echo "this is build stage"
+                echo "this is my file"
             }
         }
         stage('Testing'){
